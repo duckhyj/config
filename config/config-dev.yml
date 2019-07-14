@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     name: duckhyj
-    url: jdbc:oracle:thin:@192.168.182.130:1521:duckw
-    username: jira
+    url: jdbc:oracle:thin:@192.168.7.244:1521:crm
+    username: crm
     password: SusCrm2019
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: oracle.jdbc.OracleDriver
